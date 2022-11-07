@@ -1,0 +1,40 @@
+{
+  "name": "maya-red-flow-primitives",
+  "version": "1.0.0",
+  "description": "Maya module",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+.git"
+  },
+  "author": "dush-t",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayahq/mayadev/issues"
+  },
+  "homepage": "#readme",
+  "nodepath": "src/nodes",
+  "nodeRedModuleName": "maya-red-flow-primitives",
+  "node-red": {
+    "nodes": {
+      "maya-red-combine": "src/nodes/mayaRedCombine/mayaRedCombine.node.js"
+    }
+  },
+  "mayaDetails": {
+    "name": "maya-red-flow-primitives",
+    "version": "1.0.0",
+    "description": "Maya module",
+    "author": "dush-t",
+    "type": "git",
+    "needsUserProfile": false,
+    "thumbnail": "",
+    "repository": {
+      "type": "git",
+      "url": "git+.git"
+    }
+  },
+  "dependencies": {
+    "@mayahq/module-sdk": "^2.2.5"
+  }
+}

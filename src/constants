@@ -1,0 +1,5 @@
+const nodeColor = '#F82B60'
+
+module.exports = {
+    nodeColor
+}
